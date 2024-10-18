@@ -1,4 +1,4 @@
-# GenKit with Rest APIs
+# Genkit with Rest APIs
 
 Genkit is a framework designed to help you build AI-powered applications and features.
 
