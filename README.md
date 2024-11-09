@@ -1,6 +1,6 @@
 # Genkit with Rest APIs
 
-Genkit is a framework designed to help you build AI-powered applications and features.
+[Genkit](https://firebase.google.com/docs/genkit) is a framework designed to help you build AI-powered applications and features.
 
 In this comprehensive codelab, you'll learn how to implement GenKit functionality in an AI-powered application using a REST API built with Node.js and Express. You'll start by understanding the basics of GenKit and its role in enhancing AI functionalities, such as natural language processing or image recognition. From there, you'll set up the development environment and structure the project for optimal performance. The guide will take you through designing and implementing the required API endpoints following best practices, and you'll integrate GenKit with the backend for seamless AI capabilities.
 
