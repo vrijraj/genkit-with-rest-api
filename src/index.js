@@ -1,28 +1,21 @@
 const express = require("express");
 const app = express();
 
-const { generate } = require("@genkit-ai/ai");
-const { configureGenkit } = require("@genkit-ai/core");
-const { googleAI, gemini15Flash } = require("@genkit-ai/googleai");
+import { genkit } from 'genkit';
+import { googleAI, gemini15Flash } from '@genkit-ai/googleai'
 
 const PORT = 3002;
 
-configureGenkit({
-  plugins: [googleAI({ apiKey: "YOUR_API_KEY" })],
+const ai = genkit({
+  plugins: [googleAI( {apiKey: "YOUR_API_KEY"} )],
+  model: gemini15Flash,
 });
 
 app.get("/", async (req, res) => {
-  const llmResponse = await generate({
-    prompt: `Make Travel Itinerary from India to Baku for 4 Days`,
-    model: gemini15Flash,
-    config: {
-      temperature: 1,
-    },
-  });
-
+  const { text } = await ai.generate('say Make Travel Itinerary from India to Baku for 4 Days');
   res.send({
     success: true,
-    data: llmResponse.text(),
+    data: text
   });
 });
 
