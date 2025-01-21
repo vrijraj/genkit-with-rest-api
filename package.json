@@ -11,8 +11,9 @@
   "description": "",
   "dependencies": {
     "@genkit-ai/googleai": "^0.9.6",
-    "genkit": "^0.9.6",
+    "dotenv": "^16.4.7",
     "express": "^4.21.1",
+    "genkit": "^0.9.6",
     "zod": "^3.23.8"
   },
   "devDependencies": {
