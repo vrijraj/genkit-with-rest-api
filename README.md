@@ -1,4 +1,4 @@
-# Genkit with Rest APIs
+# Genkit(v0.9) with Rest APIs
 
 [Genkit](https://firebase.google.com/docs/genkit) is a framework designed to help you build AI-powered applications and features.
 
