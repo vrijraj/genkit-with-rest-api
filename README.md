@@ -11,4 +11,4 @@ Start Codelab: https://gradus.dev/labs/genkit-with-rest-apis-8vHnkY
 
 In this codelab, you'll learn how to implement GenKit functionality in an AI-enabled application using a REST API on the backend. We will be using Node.js and Express to build the backend.
 
-Link: https://gradus.dev/labs/genkit-with-rest-apis-8vHnkY
+Codelab Link: https://gradus.dev/labs/genkit-with-rest-apis-8vHnkY
